@@ -8,11 +8,6 @@ Make sure you have latest Python installed and Pip.
 pip install -r requirements.txt
 ```
 4. You will need to signup to Mailjet  and enter your info and API keys below.
-**Lines to edit in app.py**
-- Change the secret key at ``` Line 9 ```
-- API keys mailjet ``` Lines 11 and 12 ``` 
-- Add your email for the service or your personnal one ``` Lines 119, 124, 288 ```
-- Add the name of the service ``` Line 289 ```
 
 5. Inside the `app.py` directory run the command bellow to make sure everythging is working and see the errors messages if any. You can access on port 5000
 ```
@@ -44,6 +39,9 @@ Steps:
 - Verify that user2 and demo have been removed from the list.
 - You are now an admin.
 - Head to /env to edit the environment variables in the .env file.
+    - FEED_SEND: email address you wish to receive the feedbacks form answers 
+    - MAILJET...: enter your Mailjet api credidentials to be able to send emails notifications. You MUST create a mailjet account to make the feature work. 
+    - SYSTEM_EMAIL: The email you added to mailjet. All notifications will be send with this one.
 
 ## Backups
 If you want to backup your data, you just need to copy the `users.json` and `ideas.json` .
