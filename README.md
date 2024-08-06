@@ -6,5 +6,9 @@ Welcome to ICbest documentation, encompassing all our products and services. Her
 - ### Static Sites {docsify-ignore}
 [Age ICbest](age.md)
 
+- ### GiftManager
+[GiftManager Documentation](gift.md)
+
 - ### API QC LIB
 [API for Bibliotheque de la Ville de Québec](biblio.md)
+
