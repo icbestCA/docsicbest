@@ -1,4 +1,3 @@
-
 ## Installation
 Make sure you have latest Python installed and Pip.
 1. Make a folder for the app.
